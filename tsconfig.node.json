@@ -9,7 +9,7 @@
     "src/preload/**/*",
     "e2e/**/*",
     "src/shared/**/*",
-    "playwright.config.ts"
+    "playwright.config.ts",
   ],
   "compilerOptions": {
     "composite": true,

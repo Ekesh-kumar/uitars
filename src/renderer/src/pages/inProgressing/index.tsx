@@ -26,7 +26,7 @@ export default function InProgressing() {
   );
 
   const longThought =
-    '这是一段很长的思考内容，可能会超出一行显示范围，需要在hover的时候显示完整内容...';
+    'This is a long piece of content that may exceed the display range of a single line and needs to show the full content when hovered over.';
 
   return (
     <Box
@@ -40,24 +40,24 @@ export default function InProgressing() {
       animation={`${gradientAnimation} 15s ease infinite`}
     >
       <VStack spacing={4} color="white">
-        {/* 指令标题 */}
+        {/* Instruction Title */}
         <Text fontSize="xl" fontWeight="bold" textAlign="center">
           Locate a well-known Post-Impressionist artist&apos;s colorful...
         </Text>
 
-        {/* 思考内容 - 带悬浮提示 */}
+        {/* Thinking Content - With Hover Tips */}
         <Tooltip label={longThought} placement="top">
           <Text maxW="400px" isTruncated fontSize="md" color="whiteAlpha.800">
             {longThought}
           </Text>
         </Tooltip>
 
-        {/* 操作细节 */}
+        {/* operational details */}
         <Text fontSize="sm" color="whiteAlpha.700">
           Running
         </Text>
 
-        {/* 暂停按钮 */}
+        {/* Pause button */}
         <IconButton
           aria-label="Pause"
           icon={<FaPause />}
