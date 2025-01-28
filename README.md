@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 
 <p align="center">
   <img alt="UI-TARS"  width="260" src="resources/icon.png">
@@ -167,3 +168,6 @@ If you find our paper and code useful in your research, please consider giving a
   year={2025}
 }
 ```
+=======
+# uitars
+>>>>>>> c6e05f13fca1461431c54b9cf7188a5df6026bcc
